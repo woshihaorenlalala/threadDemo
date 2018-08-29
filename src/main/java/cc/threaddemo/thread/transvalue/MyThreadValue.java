@@ -16,6 +16,7 @@ public class MyThreadValue implements Runnable {
 
     @Override
     public void run() {
+
         Random random = new Random();
         Data data = new Data();
         int n1 = random.nextInt(1000);
